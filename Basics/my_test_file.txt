@@ -1,0 +1,7 @@
+This is the content inside the text file.
+Author: Tausif Bajaria
+Date: 24th Oct, 2022
+
+Place: Bangalore
+Place: Bangalore
+Place: Bangalore

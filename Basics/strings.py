@@ -1,6 +1,11 @@
+# Strings are immutable. That means once you assign a value to a string variable, you cannot update it unlike lists.
+# Eg. str_1[0] = "T" --> This will give error that strings are immutable
+import string
 
 str_1 = "hello woRld!"
 print("Original string: " + str_1)
+
+print(len(str_1))
 # String indexing is used to grab a character at a particular index
 first_char = str_1[0]
 last_char = str_1[-1]
@@ -46,3 +51,6 @@ print("Round off 3 decimal places: {decimal_number:1.3f}".format(decimal_number=
 
 # New formatting syntax
 print(f"The string is: {str_1}")
+
+# Get all the alphabets (a-z) in lower case
+print(set(string.ascii_lowercase))
