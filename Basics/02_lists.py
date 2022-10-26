@@ -42,6 +42,10 @@ print(f"List after reversing: {list_1}")
 list_1.insert(0, 25)
 print(f"List after inserting 25 at 0th index: {list_1}")
 
+# Remove a specific list item (25)
+list_1.remove(25)
+print(f"List after removing 25: {list_1}")
+
 # List comprehension is a unique way of quickly and dynamically creating a list with python
 # Consider a scenario where you want the string letters to be stored in a list
 my_str = "Tausif"

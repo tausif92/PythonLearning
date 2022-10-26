@@ -1,5 +1,5 @@
 class Dog:
-    # Class attribute: does not need self. This is already understood by pythin that it is a class attribute
+    # Class attribute: does not need self. This is already understood by python that it is a class attribute
     species = "mammal"
     def __init__(self, name, breed, spots, length):
         # Creating attributes of the class Dog

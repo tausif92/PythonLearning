@@ -32,7 +32,7 @@ print(list(filter(check_even, my_nums)))
 
 ######## lamda #############
 # lamda functions are anonymous functions which are basically one time use and does not have a func name.
-# This can be very handy when we have a small function and we are not going to use again
+# This can be very handy when we have a small function, and we are not going to use again
 square = lambda num: num**2
 print(square(5))
 
@@ -42,3 +42,4 @@ print(list(map(lambda num: num ** 2, my_nums)))
 
 # Same goes with filter function
 print(list(filter(lambda num: num % 2 == 0, my_nums)))
+

@@ -17,6 +17,12 @@ slice_2 = str_1[2:7]  # llo W
 slice_3 = str_1[:7]   # Hello W
 slice_4 = str_1[::2]  # HloWrd
 
+# Reverse string
+print(f" Reversed string: {str_1[::-1]}")
+
+# Reverse words in a string
+print(" ".join(str_1.split()[::-1]))
+
 # String concatenation
 concat = "This is an example of concatenation:" + slice_1 + slice_2
 
@@ -53,4 +59,7 @@ print("Round off 3 decimal places: {decimal_number:1.3f}".format(decimal_number=
 print(f"The string is: {str_1}")
 
 # Get all the alphabets (a-z) in lower case
-print(set(string.ascii_lowercase))
+print(set(string.ascii_lowercase))  # Gets all the alphabets a-z
+print(set(string.ascii_lowercase))  # Gets all the alphabets A-Z
+print(string.ascii_letters)  # Gets all the alphabets a-z and A-Z
+
